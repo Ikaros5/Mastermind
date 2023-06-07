@@ -1,0 +1,17 @@
+--------------------------------------------------------REGLAS DE JUEGO MASTERMIND-------------------------------------------------------------------------------
+1)En el rol de CodeMaker, lo único que debes de hacer es introducir un tantos numeros como huecos hayas seleccionado, cada uno separado por un enter.
+2)En el caso de que desarrolles el rol de CodeBreaker, la máquina generará un codigo secreto el cual deberas de ir adivinando. Como con el otro rol, 
+  se te iran pidiendo los numeros separados con un enter, y una vez introducidos, te diran una serie de cosas que son las siguientes:
+     - Cuantas rojas has conseguido, es decir, cuantas colores has puesto en su sitio.
+     - Cuantas blancas has conseguido, es decir, pusiste bien el color pero no la posicion en que corresponde.
+     - Cuantos huecos quedaron vacios.
+     
+Reglas generales:
+	- Numero maximo de intentos para adivinar el codigo secreto -> 10 intentos
+	- Numero de rondas -> 2(en ambas rondas pasas por los dos tipos de roles)
+	- Sistema de puntuación -> Cada ronda se comparan los intentos que tardaron tanto usuario como maquina en resolver, en caso de que el usuario haga
+	      					   menos intentos se lleva 50 puntos, en caso de empate 25 y en caso de derrota ante la maquina se llevaria 0 puntos.
+	      					   
+	      					   
+	      					   
+
